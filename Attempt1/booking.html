@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book a Flight</title>
+    <link rel="stylesheet" href="styling.css">
+    
+</head>
+<body class="book">
+
+    <header>
+        <h2 class="logo">travel<strong>NOW</strong></h2>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="container-book">
+        <h1>Book a Flight</h1>
+        <form class="form-box">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="from">From:</label>
+            <input type="text" id="from" name="from" required>
+
+            <label for="to">To:</label>
+            <input type="text" id="to" name="to" required>
+
+            <label for="departure-date">Departure Date:</label>
+            <input type="date" id="departure-date" name="departure-date" required>
+
+            <label for="return-date">Return Date:</label>
+            <input type="date" id="return-date" name="return-date">
+
+            <label for="class">Class:</label>
+            <select id="class" name="class">
+                <option value="economy">Economy</option>
+                <option value="business">Business</option>
+                <option value="first">First</option>
+            </select>
+
+            <button class="button" onclick="success()">Book Flight</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
