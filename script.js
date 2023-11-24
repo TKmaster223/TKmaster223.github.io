@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       if (enteredUsername === storedUsername && enteredPassword === storedPassword) {
           alert('Login successful!');
-          window.location.assign('index.html');
+          window.location.assign('gallery.html');
       } else {
           alert('Incorrect username or password');
         window.alert('Incorrect password please try again');
@@ -73,6 +73,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const getStartedButton = document.querySelector('#bot');
 
   getStartedButton.addEventListener('click', function() {
-      window.location.href = 'booking.html';
+      window.location.assign('Login_page.html');
   });
 });
