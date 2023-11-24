@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       if (enteredUsername === storedUsername && enteredPassword === storedPassword) {
           alert('Login successful!');
-          window.location.href = 'index.html';
+          window.location.assign('index.html');
       } else {
           alert('Incorrect username or password');
         window.alert('Incorrect password please try again');
